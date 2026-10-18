@@ -1,0 +1,6 @@
+{
+  "name": "BOMISO FITNESS – Premium Gym & Wellness Club Gurugram",
+  "description": "Gurugram's premier fitness and wellness community across Sector 30, Sector 50, and Sector 65. Body, Mind, Soul strength training, crossdrill, yoga, and personal coaching.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
