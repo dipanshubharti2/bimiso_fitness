@@ -28,13 +28,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # Cache removed because there is no lockfile in this repo
+          # We leave cache turned off since there is no lockfile in the repository
 
       - name: Install dependencies
-        run: npm install
+        run: yarn install # <-- Changed from npm to yarn to bypass the edgesOut engine crash
 
       - name: Build static bundle
-        run: npm run build
+        run: yarn build # <-- Changed to yarn execution
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
